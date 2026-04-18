@@ -128,7 +128,10 @@ body {
 }
 
 .movie {
-    text-align: center;
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .movie img {
@@ -141,7 +144,8 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #b44;
-    margin-top: 10px;
+    margin: 10px 0 0 0;
+    max-width: 100%;
 }
 
 
